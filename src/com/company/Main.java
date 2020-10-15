@@ -126,4 +126,5 @@ public class Main {
         BigInteger messageAsDecimal = new BigInteger(messageBytes); //перевод массива байт в число
         return messageAsDecimal.mod(BigInteger.valueOf(tmpHash));
     }
+
 }
